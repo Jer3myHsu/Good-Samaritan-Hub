@@ -1,13 +1,26 @@
-# Our React App: The Good Samaritan Hub
+# The Good Samaritan Hub
+The Good Samaritan Hub is a web app that matches volunteers to clients who are unable to complete outdoor chores. This app is a concept designed to help people during the COVID-19 pandemic.
+This project was developed by:
+* Jeremy Hsu
+* [Ashley Lu](https://github.com/ashley-d-lu)
+* [Irina Li](https://github.com/irinajinli)
+* [Hrithik Shukla](https://github.com/hrithikshukla)
 
 ## Link to App
 https://hidden-fjord-63319.herokuapp.com/
 
-## Instructions to Run (If needed)
+## Instructions to Run
+Start a local Mongo database:
+
+`mkdir mongo-data
+mongod --dbpath mongo-data`
+
 Clone the github repository by running the following:  
+
 `git clone https://github.com/csc309-summer-2020/team16.git`
 
-Then navigate to `/csc309-summer-2020/team16/` and run the following:   
+Then navigate to `/csc309-summer-2020/team16/` and run the following: 
+
 `cd client && npm install && npm run build && cd ../server && npm install && npm start`
 
 Now open up your browser and go to `localhost:5000`
